@@ -1,0 +1,110 @@
+[04-Dec-2023 21:08:50 UTC] FeaturesController::get_compatible_plugins_for_feature was called incorrectly. FeaturesController::get_compatible_plugins_for_feature should not be called before the woocommerce_init action. Backtrace: do_action('wp_ajax_astra-required-plugin-activate'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Sites->required_plugin_activate, activate_plugin, do_action('activate_woocommerce/woocommerce.php'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::install, WC_Install::create_options, WC_Settings_Page->get_settings, WC_Settings_Page->get_settings_for_section, apply_filters('woocommerce_get_settings_advanced'), WP_Hook->apply_filters, Automattic\WooCommerce\Internal\Features\FeaturesController->__call, call_user_func_array, Automattic\WooCommerce\Internal\Features\FeaturesController->add_feature_settings, array_map, Automattic\WooCommerce\Internal\Features\FeaturesController->Automattic\WooCommerce\Internal\Features\{closure}, call_user_func, Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController->Automattic\WooCommerce\Internal\DataStores\Orders\{closure}, Automattic\WooCommerce\Internal\Features\FeaturesController->get_compatible_plugins_for_feature, Automattic\WooCommerce\Internal\Features\FeaturesController->verify_did_woocommerce_init, Automattic\WooCommerce\Proxies\LegacyProxy->call_function, call_user_func_array, wc_doing_it_wrong. This message was added in version 7.0.
+[04-Dec-2023 21:08:50 UTC] FeaturesController::get_compatible_plugins_for_feature was called incorrectly. FeaturesController::get_compatible_plugins_for_feature should not be called before the woocommerce_init action. Backtrace: do_action('wp_ajax_astra-required-plugin-activate'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Sites->required_plugin_activate, activate_plugin, do_action('activate_woocommerce/woocommerce.php'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Install::install, WC_Install::create_options, WC_Settings_Page->get_settings, WC_Settings_Page->get_settings_for_section, apply_filters('woocommerce_get_settings_advanced'), WP_Hook->apply_filters, Automattic\WooCommerce\Internal\Features\FeaturesController->__call, call_user_func_array, Automattic\WooCommerce\Internal\Features\FeaturesController->add_feature_settings, array_map, Automattic\WooCommerce\Internal\Features\FeaturesController->Automattic\WooCommerce\Internal\Features\{closure}, call_user_func, Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController->Automattic\WooCommerce\Internal\DataStores\Orders\{closure}, Automattic\WooCommerce\Internal\Features\FeaturesController->get_compatible_plugins_for_feature, Automattic\WooCommerce\Internal\Features\FeaturesController->verify_did_woocommerce_init, Automattic\WooCommerce\Proxies\LegacyProxy->call_function, call_user_func_array, wc_doing_it_wrong. This message was added in version 7.0.
+[04-Dec-2023 21:08:53 UTC] PHP Warning:  Undefined array key "name" in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 832
+[04-Dec-2023 21:08:53 UTC] PHP Warning:  Undefined array key "title" in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 834
+[04-Dec-2023 21:08:53 UTC] PHP Warning:  Undefined array key "name" in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 832
+[04-Dec-2023 21:08:53 UTC] PHP Warning:  Undefined array key "title" in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\woocommerce\includes\class-wc-install.php on line 834
+[04-Dec-2023 21:08:53 UTC] FeaturesController::get_compatible_plugins_for_feature was called incorrectly. FeaturesController::get_compatible_plugins_for_feature should not be called before the woocommerce_init action. Backtrace: do_action('wp_ajax_astra-required-plugin-activate'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Sites->required_plugin_activate, Astra_Sites->after_plugin_activate, do_action('astra_sites_after_plugin_activation'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Sites_Compatibility_WooCommerce->install_wc, WC_Install::install, WC_Install::create_options, WC_Settings_Page->get_settings, WC_Settings_Page->get_settings_for_section, apply_filters('woocommerce_get_settings_advanced'), WP_Hook->apply_filters, Automattic\WooCommerce\Internal\Features\FeaturesController->__call, call_user_func_array, Automattic\WooCommerce\Internal\Features\FeaturesController->add_feature_settings, array_map, Automattic\WooCommerce\Internal\Features\FeaturesController->Automattic\WooCommerce\Internal\Features\{closure}, call_user_func, Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController->Automattic\WooCommerce\Internal\DataStores\Orders\{closure}, Automattic\WooCommerce\Internal\Features\FeaturesController->get_compatible_plugins_for_feature, Automattic\WooCommerce\Internal\Features\FeaturesController->verify_did_woocommerce_init, Automattic\WooCommerce\Proxies\LegacyProxy->call_function, call_user_func_array, wc_doing_it_wrong. This message was added in version 7.0.
+[04-Dec-2023 21:08:53 UTC] FeaturesController::get_compatible_plugins_for_feature was called incorrectly. FeaturesController::get_compatible_plugins_for_feature should not be called before the woocommerce_init action. Backtrace: do_action('wp_ajax_astra-required-plugin-activate'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Sites->required_plugin_activate, Astra_Sites->after_plugin_activate, do_action('astra_sites_after_plugin_activation'), WP_Hook->do_action, WP_Hook->apply_filters, Astra_Sites_Compatibility_WooCommerce->install_wc, WC_Install::install, WC_Install::create_options, WC_Settings_Page->get_settings, WC_Settings_Page->get_settings_for_section, apply_filters('woocommerce_get_settings_advanced'), WP_Hook->apply_filters, Automattic\WooCommerce\Internal\Features\FeaturesController->__call, call_user_func_array, Automattic\WooCommerce\Internal\Features\FeaturesController->add_feature_settings, array_map, Automattic\WooCommerce\Internal\Features\FeaturesController->Automattic\WooCommerce\Internal\Features\{closure}, call_user_func, Automattic\WooCommerce\Internal\DataStores\Orders\CustomOrdersTableController->Automattic\WooCommerce\Internal\DataStores\Orders\{closure}, Automattic\WooCommerce\Internal\Features\FeaturesController->get_compatible_plugins_for_feature, Automattic\WooCommerce\Internal\Features\FeaturesController->verify_did_woocommerce_init, Automattic\WooCommerce\Proxies\LegacyProxy->call_function, call_user_func_array, wc_doing_it_wrong. This message was added in version 7.0.
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:52 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:53 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:15:53 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $options in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[04-Dec-2023 21:19:28 UTC] PHP Warning:  Undefined variable $enabled_extensions in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\astra-sites\inc\classes\class-astra-sites.php on line 2327
+[06-Dec-2023 21:31:37 UTC] Sync process for Gutenberg Blocks has started.
+[06-Dec-2023 21:31:37 UTC] CATEGORY:Importing categories..
+[06-Dec-2023 21:31:38 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[06-Dec-2023 21:31:38 UTC] CATEGORY:Completed category import.
+[06-Dec-2023 21:31:38 UTC] BLOCK: Getting Total Blocks
+[06-Dec-2023 21:31:38 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[06-Dec-2023 21:31:39 UTC] BLOCK: Requests count 4
+[06-Dec-2023 21:31:39 UTC] BLOCK: Importing request 1 ..
+[06-Dec-2023 21:31:39 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[06-Dec-2023 21:31:41 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[06-Dec-2023 21:31:41 UTC] BLOCK: Completed request 1
+[06-Dec-2023 21:31:41 UTC] BLOCK: Importing request 2 ..
+[06-Dec-2023 21:31:41 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[06-Dec-2023 21:31:44 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[06-Dec-2023 21:31:44 UTC] BLOCK: Completed request 2
+[06-Dec-2023 21:31:44 UTC] BLOCK: Importing request 3 ..
+[06-Dec-2023 21:31:44 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[06-Dec-2023 21:31:44 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[06-Dec-2023 21:31:44 UTC] BLOCK: Completed request 3
+[06-Dec-2023 21:31:44 UTC] BLOCK: Importing request 4 ..
+[06-Dec-2023 21:31:44 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[06-Dec-2023 21:31:45 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[06-Dec-2023 21:31:45 UTC] BLOCK: Completed request 4
+[06-Dec-2023 21:31:45 UTC] SITE: Getting Total Sites
+[06-Dec-2023 21:31:45 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[06-Dec-2023 21:31:46 UTC] SITE: Request count 2
+[06-Dec-2023 21:31:46 UTC] SITE: Importing request 1 ..
+[06-Dec-2023 21:31:46 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[06-Dec-2023 21:32:16 UTC] SITE: API Error: cURL error 28: Operation timed out after 30001 milliseconds with 30112 bytes received
+[06-Dec-2023 21:32:16 UTC] SITE: Completed request 1
+[06-Dec-2023 21:32:16 UTC] SITE: Importing request 2 ..
+[06-Dec-2023 21:32:16 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[06-Dec-2023 21:32:17 UTC] SITE: Storing in option ast-block-templates-sites-2
+[06-Dec-2023 21:32:18 UTC] SITE: Completed request 2
+[06-Dec-2023 21:32:18 UTC] Sync process for Gutenberg Blocks is done.
+[09-Dec-2023 17:52:05 UTC] PHP Warning:  Array to string conversion in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-includes\functions.php on line 3844
+[09-Dec-2023 19:30:59 UTC] Sync process for Gutenberg Blocks has started.
+[09-Dec-2023 19:30:59 UTC] CATEGORY:Importing categories..
+[09-Dec-2023 19:31:02 UTC] CATEGORY:Storing in option ast-block-templates-categories
+[09-Dec-2023 19:31:02 UTC] CATEGORY:Completed category import.
+[09-Dec-2023 19:31:02 UTC] BLOCK: Getting Total Blocks
+[09-Dec-2023 19:31:02 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/get-blocks-count/?page_builder=gutenberg&wireframe=yes
+[09-Dec-2023 19:31:02 UTC] BLOCK: Requests count 4
+[09-Dec-2023 19:31:02 UTC] BLOCK: Importing request 1 ..
+[09-Dec-2023 19:31:02 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=1&wireframe=yes
+[09-Dec-2023 19:31:02 UTC] BLOCK: Storing in option ast-block-templates-blocks-1
+[09-Dec-2023 19:31:02 UTC] BLOCK: Completed request 1
+[09-Dec-2023 19:31:02 UTC] BLOCK: Importing request 2 ..
+[09-Dec-2023 19:31:02 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=2&wireframe=yes
+[09-Dec-2023 19:31:03 UTC] BLOCK: Storing in option ast-block-templates-blocks-2
+[09-Dec-2023 19:31:03 UTC] BLOCK: Completed request 2
+[09-Dec-2023 19:31:03 UTC] BLOCK: Importing request 3 ..
+[09-Dec-2023 19:31:03 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=3&wireframe=yes
+[09-Dec-2023 19:31:03 UTC] BLOCK: Storing in option ast-block-templates-blocks-3
+[09-Dec-2023 19:31:03 UTC] BLOCK: Completed request 3
+[09-Dec-2023 19:31:03 UTC] BLOCK: Importing request 4 ..
+[09-Dec-2023 19:31:03 UTC] BLOCK: https://websitedemos.net/wp-json/astra-blocks/v1/blocks/?page_builder=gutenberg&per_page=100&page=4&wireframe=yes
+[09-Dec-2023 19:31:03 UTC] BLOCK: Storing in option ast-block-templates-blocks-4
+[09-Dec-2023 19:31:03 UTC] BLOCK: Completed request 4
+[09-Dec-2023 19:31:03 UTC] SITE: Getting Total Sites
+[09-Dec-2023 19:31:03 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/get-total-pages/?page_builder=gutenberg
+[09-Dec-2023 19:31:03 UTC] SITE: Request count 2
+[09-Dec-2023 19:31:03 UTC] SITE: Importing request 1 ..
+[09-Dec-2023 19:31:03 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=1&page-builder=gutenberg
+[09-Dec-2023 19:31:04 UTC] SITE: Storing in option ast-block-templates-sites-1
+[09-Dec-2023 19:31:04 UTC] SITE: Completed request 1
+[09-Dec-2023 19:31:04 UTC] SITE: Importing request 2 ..
+[09-Dec-2023 19:31:04 UTC] SITE: https://websitedemos.net/wp-json/astra-sites/v1/sites-and-pages/?per_page=100&page=2&page-builder=gutenberg
+[09-Dec-2023 19:31:04 UTC] SITE: Storing in option ast-block-templates-sites-2
+[09-Dec-2023 19:31:04 UTC] SITE: Completed request 2
+[09-Dec-2023 19:31:04 UTC] Sync process for Gutenberg Blocks is done.
+[15-Dec-2023 18:00:42 UTC] Cron unschedule event error for hook: wp_1_wc_privacy_cleanup_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wp_1_wc_privacy_cleanup_cron_interval","args":[],"interval":300}
+[17-Dec-2023 23:54:44 UTC] PHP Warning:  copy(C:/Users/elbou/Local Sites/ecomerce/wp-json/wp/v2/pages/25/index.html): Failed to open stream: No such file or directory in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-transfer-files-locally-task.php on line 91
+[17-Dec-2023 23:54:45 UTC] PHP Warning:  copy(C:/Users/elbou/Local Sites/ecomerce/wp-json/wp/v2/pages/1175/index.html): Failed to open stream: No such file or directory in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-transfer-files-locally-task.php on line 91
+[17-Dec-2023 23:54:45 UTC] PHP Warning:  copy(C:/Users/elbou/Local Sites/ecomerce/wp-json/wp/v2/product/1357/index.html): Failed to open stream: No such file or directory in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-transfer-files-locally-task.php on line 91
+[17-Dec-2023 23:54:46 UTC] PHP Warning:  copy(C:/Users/elbou/Local Sites/ecomerce/wp-json/wp/v2/product/1386/index.html): Failed to open stream: No such file or directory in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-transfer-files-locally-task.php on line 91
+[17-Dec-2023 23:54:46 UTC] PHP Warning:  copy(C:/Users/elbou/Local Sites/ecomerce/wp-json/wp/v2/product_tag/37/index.html): Failed to open stream: No such file or directory in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-transfer-files-locally-task.php on line 91
+[17-Dec-2023 23:54:46 UTC] PHP Warning:  copy(C:/Users/elbou/Local Sites/ecomerce/wp-json/wp/v2/posts/1/index.html): Failed to open stream: No such file or directory in C:\Users\elbou\Local Sites\ecomerce\app\public\wp-content\plugins\simply-static\src\tasks\class-ss-transfer-files-locally-task.php on line 91
